@@ -1,0 +1,138 @@
+/*Fonts*/
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/OpenSans-Light.ttf');
+ }
+
+@font-face {
+  font-family: 'HelveticaLTStd-Bold';
+  src: url('../fonts/HelveticaLTStd-Bold.otf');
+ }
+
+ @font-face {
+  font-family: 'HelveticaLTStd-Light';
+  src: url('../fonts/HelveticaLTStd-Light.otf');
+ }
+
+ @font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.ttf');
+ }
+
+body {
+  font-family: 'HelveticaLTStd-Light';
+}
+.no-padding {
+    padding: 0px;
+}
+
+/*==========================================*/
+
+/*
+** Header
+*/
+.header-section {
+  background-image: url('../img/backgorund/home-top-bg-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 7%;
+  padding: 70px 0px;
+}
+.header_panel_section {
+  padding: 30px;
+  background: rgba(35, 53, 136, 0.55);
+}
+.header_panel_section h4 {
+  color: white;
+  font-family: 'Montserrat-Bold';
+  font-size: 28px;
+}
+.header_panel_section span {
+  color: white;
+  font-size: 20px;
+}
+.header_panel_section p {
+  padding: 10px 0px;
+  color: rgba(255, 255, 255, 0.69);
+}
+
+.header-section button {
+  color: white;
+  background-color: #d4145a;
+  border: none;
+  width: 110px;
+  height: 30px;
+  font-size: 10px;
+  font-family:"Montserrat-Regular";
+  border-radius: 5px;
+}
+
+/*first seciton news*/
+
+.section1_home {
+  padding: 40px 0px;
+}
+
+.home-bigpanel {
+  padding: 20px 20px;
+  box-shadow: 0.81px 0.81px 8.11px rgba(0, 0, 0, 0.10);
+}
+.home-bigpanel h4 {
+  color: #233588;
+  font-family: "Montserrat-Bold";
+  font-size: 20px;
+}
+.home-bigpanel p {
+  font-family: "HelveticaLTStd-Light";
+  color: #808285;
+  font-size: 15px;
+}
+.home-bigpanel button {
+  color: white;
+  background-color: #d4145a;
+  border: none;
+  width: 110px;
+  height: 30px;
+  font-size: 10px;
+  font-family:"Montserrat-Regular";
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Desktop Version*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .article-3-mobile {
+      text-align: center;
+    }
+    .home-backgorund-img {
+      background: white;
+    }
+}

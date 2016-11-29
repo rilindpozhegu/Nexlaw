@@ -48,6 +48,7 @@ html {
     padding-bottom: 5px;
 }
 .navbar-default .navbar-nav>li>a {
+    text-align: center;
     margin: 0px 3px;
     padding: 5px 20px;
     font-weight: bold;
@@ -55,14 +56,14 @@ html {
     border-bottom: solid 2px transparent;
     transition: all ease-in-out 0.2s;
     font-family: 'Montserrat-Bold';
+    border-bottom: solid 2px transparent;
 }
 .navbar-default .navbar-nav>li>a:hover {
-    background-color: #233588;
-    color: white;
+    border-bottom: solid 2px #233588;
 }
 .navbar-default .navbar-nav .active {
-    background-color: #233588;
-    color: white;
+    color: #233588;
+    border-bottom: solid 2px #233588;
 }
 
 
@@ -80,6 +81,7 @@ html {
 
 .nav-social:hover {
     background-color: transparent !important;
+    border-bottom: solid 2px transparent !important;
 }
 
 /*Mobile Version*/
@@ -99,7 +101,7 @@ html {
 }
 .navigationbar-social-mobile img {
     width: 25px;
-    margin: 10px 5px;
+    margin: 7px 8px;
 }
 
 
@@ -119,7 +121,7 @@ html {
     margin-top: 15px;
     margin-right: 0px;
     margin-bottom: 0px;
-    margin-left: 34px;
+    margin-left: 10px;
     background-color: transparent;
     background-image: none;
     border: transparent;

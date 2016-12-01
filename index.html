@@ -114,6 +114,33 @@
     <div class="clearfix"></div>
 <div class="home-backgorund-img">
 
+
+
+<div class="clearfix"></div>
+
+    <!-- Mobile blog Slider -->
+    <section class="section_4 desktop-d-n">
+        <div class="container">
+            <div id="owl-demo" class="owl-carousel carousel-blog-top">
+              <div class="item">
+                <h5>News Title</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                 <button>Read</button>             
+              </div>
+              <div class="item">
+                <h5>News Title</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                 <button>Read</button>             
+              </div>
+              <div class="item">
+                <h5>News Title</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                 <button>Read</button>             
+              </div>
+            </div>            
+        </div>
+    </section>
+
 <!-- First Section -->
 <section class="section1_home">
   <div class="container">
@@ -121,8 +148,12 @@
       <div class="col-md-9">
         <div class="col-md-12 home-bigpanel">
           <h4>Who We Are</h4>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis </p>
-          <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          <p>NexLaw is a Consultancy engaged in the provision of legal and commercial advice to Shipowners, Charterers, Commodity Traders, Underwriters, Shipyards and Steel Mills on a global basis.</p>
+
+            <p>NexLaw is managed by Ravi Ravindran, who originates from Singapore. Ravi graduated from the University of Wales Institute of Science and Technology, in 1983 with a BSc. Hons. in Maritime Commerce. He obtained his Diploma in Law from City University, London in 1986. Following three years of articleship in London, Ravi successfully completed the Law Society Final Examinations at the College of York in August 1990. He was admitted as a Solicitor in December 1990. After working with the UK P&I Club in London for six years, he worked as the Senior Legal Adviser to Cable & Wireless Marine Ltd and subsequently set up his own Legal Practice in Istanbul, Turkey.</p>
+
+            <p>NexLaw is also complemented by Turkish qualified lawyers who undertake Turkish law related matters within the Turkish jurisdiction. We also work with Emirati Advocates and Legal Consultants in respect of those matters involving the UAE jurisdiction.</p>
+            </p>
           <button>More</button>
         </div>
         <div class="col-md-4 panel-homepage1">
@@ -139,14 +170,14 @@
         <div class="col-md-4 panel-homepage1">
           <div class="panel-homepage">
             <img src="img/icon2-01.png">
-            <h4>Our Expertise</h4>
+            <h4>Global Operations</h4>
             <p>Although NexLaw is based in Dubai, our Clients are based not only in Europe, Russia, Ukraine, CIS, North Africa, the Middle East and the Indian sub-continent but also the Far East.</p>
           </div>
         </div>
         <div class="col-md-4 panel-homepage1 panel-homepage2">
           <div class="panel-homepage">
             <img src="img/icon3-01.png">
-            <h4>Our Expertise</h4>
+            <h4>Contact Us</h4>
             <p>DUBAI<br>        
               +9714 3582998 / 3582829<br>
 
@@ -217,6 +248,22 @@
     <script src="js/scrolling-nav.js"></script>
 
 
+
+<!-- Carocel-smaller -->
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+<script type="text/javascript">
+         // Galery Sponsors Comapny Page
+        $(document).ready(function() {
+            $("#owl-demo").owlCarousel({
+                autoPlay: 4000,
+                items: 1,
+                itemsDesktop: [1199, 3],
+                itemsDesktopSmall: [979, 3]
+            });
+
+        });
+
+</script>
 </body>
 
 </html>

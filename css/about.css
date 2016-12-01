@@ -110,7 +110,35 @@ body {
   font-family:"Montserrat-Regular";
   border-radius: 5px;
 }
+/*Mobile blog slider*/
+.carousel-blog-top {
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px; 
+      padding: 15px;
+      margin-top: 10px;
 
+}
+.carousel-blog-top h5{
+    color: #233588;
+    font-family: "Montserrat-Bold";
+    font-size: 15px;
+}
+
+.carousel-blog-top p {
+    font-family: "HelveticaLTStd-Light";
+    color: #808285;
+    font-size: 12px;
+  }
+
+
+.carousel-blog-top button {
+    color: white;
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+    background-color: #283887;
+    border: none;
+    border-radius: 5px;
+}
 /*Panels On the right*/
 .small-panels-right {
   margin-bottom: 15px;
@@ -139,6 +167,9 @@ body {
 
 
 /*Galery section*/
+.iso-section {
+  padding-bottom: 40px;
+}
 .iso-section h3 {
   color: #233588;
   font-family: "Montserrat-Bold";

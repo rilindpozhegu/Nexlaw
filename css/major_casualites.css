@@ -115,7 +115,7 @@ tr {
 }
 table.dataTable thead th, table.dataTable thead td {
   border:none !important;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px; 
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px; 
 
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
@@ -128,7 +128,7 @@ table.dataTable.no-footer {
     border-bottom: 1px solid transparent !important;
 }
 table.dataTable.cell-border tbody tr:first-child th, table.dataTable.cell-border tbody tr td {
-      box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px; 
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px; 
 
 }
 /*Desktop Version*/
